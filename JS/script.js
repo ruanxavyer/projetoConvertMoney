@@ -22,15 +22,12 @@ function funcConvertCurrency(){
     const libraLibra = 1
     const real = 5.26
     const realReal = 1
-
     const bitcoin = 0.000041
     const bitcoinDolar = 26016.000
     const bitcoinLibra = 20683.620
     const bitcoinReal = 126746.000
     const bitcoineuro = 24083.670
     const bitcoinBitcoin = 1
-    
-    
     const euroToday = 5.26
     const libraToday = 6.13
     const bitcoinToday = 126.761

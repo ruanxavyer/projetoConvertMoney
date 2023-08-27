@@ -19,12 +19,6 @@ body{
     justify-content: center;
     padding-top: 30px;
     
-    
-    
-
-    
-
-
 }
 
 
@@ -35,22 +29,14 @@ body{
     background: white;
     padding: 24px;
     opacity: 0.95;
-    
-
-
-    
+  
 }
 
 .img-logo{
     width: 300px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     
-   
-
-
-
-
 }
 
 .Container-box-inf-convert{
@@ -70,9 +56,6 @@ body{
     padding-bottom: 6px;
     padding-top: 24px;
 
-
-
-
 }
 
 #select-convert-de,#select-convert-para{
@@ -91,11 +74,18 @@ body{
     cursor: pointer;
     appearance: none;
 
-
 }
 
+#select-convert-de:hover{
 
+    background-color: #271103;
+    color: #ffffff;
+}
+#select-convert-para:hover{
 
+    background-color: #271103;
+    color: #ffffff;
+}
 
 
 #box-value-a-convert{
@@ -111,9 +101,7 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
-    
-  
-    
+      
 }
 
 .button-convert-currency{
@@ -155,8 +143,6 @@ body{
     flex-direction: column;
     top: 30px;
     
-
-
 }
 
 .text-currency-real,.text-currency-convert{
@@ -167,7 +153,6 @@ body{
     padding-top: 4px;
     padding-bottom: 3px;
 
-
 }
 
 .icone-seta-convert{
@@ -176,15 +161,45 @@ body{
     padding-bottom: 13px;
 }
 
-
-
-
 .value-a-convert-currency-real,.value-currency-convert{
     color: #271103;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
 
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    
+    
+    body{
+
+
+        padding-top: 7px;
+        margin: 0;
+        background-image: url(../asset/img/fundo-site.jpg);
+
+    }
+
+    .container-main{
+        width: 375px;
+        height: 834px;
+        border-radius: 20px;
+        background: #ffffff;
+
+    }
+
+    .img-logo{
+        width: 300px;
+        position: absolute;
+        top: 30px;
+
+    
+    }
 
 }
 
