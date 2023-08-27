@@ -20,27 +20,34 @@
 
 
                 <label class="container-converter-de">
-                    <p class="text-convert-de">Converter <b>de</b></p>
+                    <p class="text-convert-de">Converter <b>de:</b></p>
                     <select id="select-convert-de">
-                        <option value="#">R$ Real brasileiro</option>
+
+                        <option value="real">R$ Real brasileiro</option>
+                        <option value="libra"> £ Libra </option>
+                        <option value="bitcoin"> ₿ Bitcoin </option>
+                        <option value="dolar"> US$ Dólar americano </option>
+                        <option value="euro"> € Euro </option>
+
                     </select>
 
                 </label>
 
                 <label class="container-converter-para">
-                    <p class="text-convert-para">Converter <b>para</b></p>
+                    <p class="text-convert-para">Converter <b>para:</b></p>
                     <select id="select-convert-para">
                         <option value="dolar"> US$ Dólar americano </option>
                         <option value="euro"> € Euro </option>
+                        <option value="real">R$ Real brasileiro</option>
                         <option value="libra"> £ Libra </option>
-                        <option value="bitcoin"> Bitcoin </option>
+                        <option value="bitcoin"> ₿ Bitcoin </option>
                     </select>
 
                 </label>
 
                 <label>
-                    <p class="text-valor">Valor</p>
-                <input id="box-value-a-convert" placeholder="R$ 10.000,00">
+                    <p class="text-valor">Valor de <b>Conversão:</b></p>
+                <input id="box-value-a-convert" placeholder="Digite o valor">
                 </label>
 
                 <button class="button-convert-currency"> Converter </button>
@@ -52,11 +59,11 @@
 
             <img  class="icone-currency-real" src="./asset/img/icone-currency-real.png" alt="icone-currency-real">
             <p class="text-currency-real">Real</p>
-            <p class="value-a-convert-currency-real">R$ 10.000,00</p>
+            <p class="value-a-convert-currency-real">R$ 0,00</p>
             <img class="icone-seta-convert" src="./asset/img/icone-seta-convert.gif" alt="icone-seta-convert.gif">
             <img class="icone-currency-convert" src="./asset/img/icone-currency-dolar.png" alt="icone-currency-dolar">
             <p class="text-currency-convert">Dólar Americano</p>
-            <p class="value-currency-convert">US$ 2.000,00</p>
+            <p class="value-currency-convert">US$ 0,00</p>
 
 
         </section>
